@@ -1,11 +1,5 @@
-# Hello. My name is Ibrahim Mahmud Suhaimi
+#Python beginner tutorials
+This is my 100th attempt at learning python
+Hopefully I am successful this time
 
-I have learnt how to check commits!
-
-## Subheader
-
-This is pretty cool
-
-## Local Development
-
-1. Open fun.html in your browser
+##First lecture notes
