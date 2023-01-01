@@ -163,3 +163,5 @@ min_value = min(nums)
 # This function will return the sum
 sum_values = sum(nums)
 print('Max:', max_value, ' Min:', min_value, ' Sum:', sum_values)
+
+

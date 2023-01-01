@@ -1,3 +1,5 @@
+## Lecture 1
+
 # We separate words using underscore 
 # Make variable names that make sense
 # Put double quotes if you want to put single quote in the string

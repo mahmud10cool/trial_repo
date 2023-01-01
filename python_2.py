@@ -1,3 +1,5 @@
+## Lecture 2
+
 # We will work with numeric data in this lecture
 num = 3
 # Python has a type function to know the type of the variable
