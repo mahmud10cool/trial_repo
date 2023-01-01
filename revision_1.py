@@ -105,3 +105,61 @@ print(y != x)
 x = '123'
 print(int(x))
 print(float(x))
+
+## Lists, sets and tuples
+# Lists
+x = [1728961, 'Mahmud Suhaimi Ibrahim', 'Non-conforming', 'Mechatronics Engineering']
+# To print the individual items, we can use the index of the item
+print(x[0])
+print(x[1])
+# To print all the items, we have to use the for loop
+for item in x:
+    print(item) 
+# To add items to the list, we can use two methods
+# First one is to use the append method to add an item at the end of the list
+x.append('Bachelor of Engineering')
+print(x)
+# The other method, insert, is to add an item at a specific index (location) in the list
+x.insert(3, 'Age: 25')
+print(x)
+# We can remove items from a list using two methods as well
+# The first method, remove, will look for the item and remove it from the list
+x.remove('Age: 25')
+print(x)
+# The second method, pop, is like the opposite of append, it removes the last item
+# from the list
+x.pop()
+print(x)
+
+# Now we can reverse the arrangement of the list using the reverse method
+x.reverse()
+print(x)
+
+# We can sort the list using the sort method
+# But we cannot have mixed variable types in the list
+# So I will change the matric number using the replace method
+# There are many ways to do this, I will try to automate as much as possible
+# I will start by using the index method to find the location of the matric number
+i = x.index(1728961)
+# Then I will replace the value in that index with a string version of that value
+x[i] = str(x[i])
+# Print the list to see the change
+print(x)
+# Now I can sort the list in peace
+x.sort()
+print(x)
+# I can sort in descending order
+x.sort(reverse=True)
+# Instead of using a method, we can use a function known as sorted
+# But we have to put the result inside a variable
+x_sorted = sorted(x)
+print(x_sorted)
+
+# I will make a new numerical list to explain a few more list functions
+nums = [1, 10, 4, -2, 0, 9]
+# The next two functions will return the max and min values, not the index
+max_value = max(nums)
+min_value = min(nums)
+# This function will return the sum
+sum_values = sum(nums)
+print('Max:', max_value, ' Min:', min_value, ' Sum:', sum_values)
