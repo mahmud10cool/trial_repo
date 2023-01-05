@@ -61,5 +61,25 @@ print(student.keys())
 print('\nAll the values of the dictionary:')
 print(student.values())
 
+# If we want to see all the keys and values separately
+# Then we can use the items method
+print('\nAll the items in the dictionary:')
+print(student.items())
 
+# A line to create space in the results
+print('\n\n')
 
+# This will only print the keys
+print('Keys:')
+for key in student:
+    print(key)
+
+# To print all the values
+print('\nValues:')
+for value in student.values():
+    print(value)
+
+# If I want to print them side by side
+print('\nKeys and values side by side:')
+for key, value in student.items():
+    print(key,value)
