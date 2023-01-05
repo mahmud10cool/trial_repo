@@ -61,3 +61,46 @@ if not existance:
     print('Please exist')
 else:
     print('Welcome Mahmud Suhaimi')
+
+# Objects that are the same but not same in memory
+# We use the 'is' comparator for objects that are 
+# the same in memory
+a = [1, 2, 3]
+b = a
+print(id(a))
+print(id(b))
+print(a == b)
+print(a is b)
+# The same as saying 
+print(id(a) == id(b))
+
+# False values
+    # False
+    # None
+    # Zero of any numeric type
+    # Any empty sequence. For example, '', (), [],
+    # Any empty mapping. For example, {},
+# False
+condition = False
+if condition:
+    print('Evaluated to True')
+else:
+    print('Evaluated to False')
+# None
+x = None
+if x:
+    print('x is True')
+else: 
+    print('x is False')
+# Zero
+y = 0
+if y:
+    print('x is not zero')
+else:
+    print('y is zero')
+# Empty list, tuple, dictionary or string
+z = ''
+if z:
+    print('z is not empty')
+else:
+    print('z is empty')
