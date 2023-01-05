@@ -1,5 +1,7 @@
 ## Lecture 1
 
+# This and all the following codes are based of Corey Schafer's YouTube playlist
+
 # We separate words using underscore 
 # Make variable names that make sense
 # Put double quotes if you want to put single quote in the string
