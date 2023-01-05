@@ -45,11 +45,19 @@ if user == 'Admin' and logged_in:
     print('Admin Page')
 else:
     print('Bad Creds')
-# Using the 'or' operator
+# New variables
 player = 'Lionel Messi'
 status = 'GOAT'
-
+# Understanding the 'or' operator
 if player == 'Lionel Messi' or status == 'GOAT':
     print('Lionel Messi is the GOAT')
 else:
     print('You are mistaken')
+# More variables
+name = 'Mahmud Suhaimi'
+existance = False
+# Understanding the 'not' operator
+if not existance:
+    print('Please exist')
+else:
+    print('Welcome Mahmud Suhaimi')
