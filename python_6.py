@@ -1,4 +1,4 @@
-## Lecture 7
+## Lecture 6
 
 # This lecture will deal with for and while loop
 
