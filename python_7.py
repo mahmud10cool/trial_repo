@@ -73,3 +73,27 @@ def def_func(age, name = 'Mahmud'):
 
 print(def_func(23, 'Alberta'))
 print(def_func(25))
+
+print()
+
+# The weird *args and **kwargs
+# *args are positional arguments
+# **kwargs are keyword arguments
+# The names don't have to be args and kwargs
+# But that is the convention that you will see in many places
+def student_info(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+courses = ['Math', 'Art']
+info = {'name': 'John', 'age': 22}
+
+student_info(courses, info)
+
+print()
+
+# To unpack the values, we can use the * and ** 
+# Example
+# Basically it means to take it out of the list
+print("Unpacked: ")
+student_info(*courses, **info)
