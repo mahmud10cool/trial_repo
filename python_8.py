@@ -14,8 +14,14 @@ from python_8a import *
 import sys
 # I will import a module that is not on the list
 # I will place it in my desktop, change it as you wish
-sys.path.append('/home/suhaimi/Desktop/py_modules')
+# sys.path.append('/home/suhaimi/Desktop/py_modules')
+# No need to do the last line if you do it for the whole computer by 
+# adding it as an environment variable in the bashrc for linux
+# and there is a particular way to do it for windows
 import module_1 as m1
+
+# I will give the bash line here
+# export PYTHONPATH="/home/suhaimi/Desktop/py_modules"
 
 # A random list to read
 courses = ['History', 'Math', 'Physics', 'CompSci']
