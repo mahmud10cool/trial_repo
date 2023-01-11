@@ -19,12 +19,24 @@ import sys
 # adding it as an environment variable in the bashrc for linux
 # and there is a particular way to do it for windows
 import module_1 as m1
+print()
 
 # I will give the bash line here
 # export PYTHONPATH="/home/suhaimi/Desktop/py_modules"
 
+# Importing other modules
+import random
+import math
+import datetime
+import calendar
+
 # A random list to read
 courses = ['History', 'Math', 'Physics', 'CompSci']
+
+# Using the random module
+random_course = random.choice(courses)
+print('The random course is: ',random_course)
+print()
 
 # Using a function from the module
 index = find_index(courses, 'Math')
@@ -48,3 +60,23 @@ print()
 
 your_name = m1.name_func('Mahmud Suhaimi')
 print(your_name)
+
+print()
+
+# Using the math module
+rads = math.radians(90)
+print('The angle in radians is: ', rads)
+print('The sin of the angle is: ', math.sin(rads))
+
+print()
+
+# Using the datetime module
+today = datetime.date.today()
+print('The date today is: ', today)
+
+print()
+
+# Using the calendar module
+year = 2020
+is_it_leap = calendar.isleap(year)
+print(year, ' is a leap year: ', is_it_leap)
