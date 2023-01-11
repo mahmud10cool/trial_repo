@@ -29,6 +29,7 @@ import random
 import math
 import datetime
 import calendar
+import os
 
 # A random list to read
 courses = ['History', 'Math', 'Physics', 'CompSci']
@@ -80,3 +81,19 @@ print()
 year = 2020
 is_it_leap = calendar.isleap(year)
 print(year, ' is a leap year: ', is_it_leap)
+
+print()
+
+# Using the os module
+# This give us access to the underlying os that is in use
+# If it is linux, then linux and if it's windows then windows
+# Current work directory
+print(os.getcwd())
+
+print()
+
+# We can see the location of the module using the dunderfile method
+print('The location of the os module is: ',os.__file__)
+
+# Importing a joke module
+import antigravity
