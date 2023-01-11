@@ -2,6 +2,7 @@
 # I have done a little bit of this before
 # But it will be a good revision
 
+# Slicing lists
 my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 def choose_index(x):
@@ -49,6 +50,25 @@ print()
 
 # Steps to skip certain values
 # The step is the last value, NOT the value in the middle
-print('Range from 0 to 9, step = 2: ',my_list[0:9:2])
+print('Range from 0 to 8, step = 2: ',my_list[0:9:2])
 # I can use negative steps to go in reverse
-print('Range from 0 to 9, step = -2: ',my_list[9:0:-2])
+print('Range from 9 to 1, step = -2: ',my_list[9:0:-2])
+# I can just not give any values to indicate end values
+print('Range from 0 to 9, step = 1: ', my_list[::1])
+
+print()
+
+# Slicing strings
+sample_string = 'Mahmud Suhaimi Ibrahim'
+
+# Reverse the string
+print('Sample string in reverse: ', sample_string[::-1])
+
+# Get the last name
+print('Last name: ', sample_string[-7:])
+
+# Print without the first name
+print('Without the first name: ', sample_string[7:])
+
+# Print the middle name
+print('The middle name is: ', sample_string[7:-8])
