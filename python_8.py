@@ -48,6 +48,3 @@ print()
 
 your_name = m1.name_func('Mahmud Suhaimi')
 print(your_name)
-
-
-
